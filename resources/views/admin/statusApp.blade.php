@@ -12,8 +12,8 @@
       @include('admin.sidebar')
       <!-- partial -->
       @include('admin.navbar')
-    <div align="center"style="margin: 5rem;margin-right: 5rem;position: relative;color:white">
-    <table class="table .table-md table-hover table-dark table-bordered"  >
+    <div align="center"style="margin: 5rem;margin-right: 5rem;position: relative;color:white;overflow-x: auto;">
+    <table class="table .table-md table-hover table-dark table-bordered" >
      <thead>
        <tr>
           <th scope="col">Email</th>
