@@ -67,7 +67,7 @@
           			</div>
           			<div style="padding-top: 20px" >
           				<label>Doctor Image :</label>
-                  <img src="doctorImage/{{$upData->image}}" style="height: 100px;width: 100px">
+                  <img src="doctorimage/{{$upData->image}}" style="height: 100px;width: 100px">
           				<input type="file" name="file"  >
           			</div>
           			<div style="padding-top: 20px " >

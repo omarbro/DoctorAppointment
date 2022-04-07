@@ -32,7 +32,7 @@
                 <td>{{$docData->speciality}}</td>
                 <td>{{$docData->room}}</td>
                 <td>{{$docData->phone}}</td>
-                <td><img style="height: 100px;width: 100px" src="doctorImage/{{$docData->image}}"></td>
+                <td><img style="height: 100px;width: 100px" src="doctorimage/{{$docData->image}}"></td>
                 <td><a class="btn btn-primary" onclick="return confirm('Are you sure to Update?')" href="{{url('updateDoc',$docData->id)}}"  >Update</a></td>
                 <td><a class="btn btn-danger" onclick="return confirm('Are you sure to Delete?')" href="{{url('deleteDoc',$docData->id)}}"  >Delete</a></td>
                 

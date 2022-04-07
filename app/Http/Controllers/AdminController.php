@@ -34,7 +34,7 @@ class AdminController extends Controller
     	$image=$req->file; 
     	$imagename=time().'.png';
         // $image->getClientoriginalExtension();
-    	$req->file->move('doctorImage',$imagename);
+    	$req->file->move('doctorimage',$imagename);
     	$doctor->name=$req->name;
     	$doctor->phone=$req->number;
     	$doctor->speciality=$req->speciality;
@@ -144,7 +144,7 @@ class AdminController extends Controller
         if($image){
             $imagename=time().'.png';
             // $image->getClientOriginalExtension();
-            $req->file->move('doctorImage',$imagename);
+            $req->file->move('doctorimage',$imagename);
             $upData->image=$imagename;
         }  
 
